@@ -12,7 +12,7 @@
 
 # Modify default IP
 sed -i 's/192.168.1.1/10.10.10.1/g' package/base-files/files/bin/config_generate
-
+sed -i "/helloworld/d" "feeds.conf.default"
 # Modify default theme
 # sed -i 's/luci-theme-bootstrap/luci-theme-design/g' feeds/luci/collections/luci/Makefile
 
