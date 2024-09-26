@@ -19,6 +19,6 @@
 #echo 'src-git opentopd  https://github.com/sirpdboy/luci-theme-opentopd' >>feeds.conf.default
 echo 'src-git mosdns https://github.com/sbwml/luci-app-mosdns'  >>feeds.conf.default
 echo 'src-git v2ray-geodata https://github.com/sbwml/v2ray-geodata'  >>feeds.conf.default
-#echo 'src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall-packages.git' >>feeds.conf.default
-#echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall.git' >>feeds.conf.default
+echo 'src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall-packages.git' >>feeds.conf.default
+echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall.git' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
